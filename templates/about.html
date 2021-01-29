@@ -7,15 +7,12 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
-        <link rel="stylesheet" href="{% static 'css/home.css' %}">
-    </head>
+    </head> 
     <body>
-        <h1>Dog-Gone Message Board</h1>
-        <ul>
-            {% for post in all_posts_list %}
-                <li>{{ post.text }}</li>
-            {% endfor %}
-        </ul>
+        <h1><bold>Welcome!</bold></h1>
+
+        <p>This app was created by Nathan Ortiz, a 25-year-old student in the FSDI program at San Diego Global Knowledge University. He has no prior experience or education in the computer science/tech field. Most of the time, he has absolutely no idea what he is doing (I really don't). But here we are!
+        </p>
 {% endblock content %}
     </body>
 </html>
