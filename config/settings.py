@@ -122,7 +122,7 @@ STATIC_URL = '/static/'
 
 
 STATICFILES_DIRS = [
-    str(BASE_DIR.joinpath('posts/static')),
+    str(BASE_DIR.joinpath('static')),
 ]
 
 STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles'))
